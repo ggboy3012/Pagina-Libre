@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Melendi</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #eeeeee;
+            color: #222;
+        }
+
+        header {
+            background-image: url("imagenes/melendi.jpg");
+            background-size: cover;
+            background-position: center;
+
+            height: 400px;
+            color: rgb(0, 0, 0);
+            text-align: center;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            padding-bottom: 30px;
+        }
+        header h1 {
+            font-size: 45px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        nav a:hover {
+            color: #e0b43c;
+        }
+
+        section {
+            background-color: white;
+            width: 80%;
+            margin: 30px auto;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #b8860b;
+            border-bottom: 2px solid #b8860b;
+            padding-bottom: 8px;
+        }
+
+        .historia {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .historia img {
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        .albumes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .album {
+            background-color: #eeeeee;
+            padding: 15px;
+            width: 200px;
+            border-radius: 8px;
+        }
+
+        .album h3 {
+            color: #b8860b;
+        }
+
+        .album {
+            background-size: cover;
+            background-position: center;
+            padding: 15px;
+            width: 200px;
+            height: 200px;
+            border-radius: 8px;
+            color: white;
+        }
+
+        .album1 {
+            background-image: url("imagenes/sin.jpg");
+        }
+
+        .album2 {
+            background-image: url("imagenes/que.jpg");
+        }
+
+        .album3 {
+            background-image: url("imagenes/mientras.jpg");
+        }
+
+        .album4 {
+            background-image: url("imagenes/cara.jpg");
+        }
+
+        .album5 {
+            background-image: url("imagenes/empezar.jpg");
+        }
+
+        .album6 {
+            background-image: url("imagenes/la.jpg");
+        }
+
+        .album7 {
+            background-image: url("imagenes/un.jpg");
+        }
+
+        .album8 {
+            background-image: url("imagenes/gafas.jpg");
+        }
+
+        .album9 {
+            background-image: url("imagenes/ahora.jpg");
+        }
+
+        .album10 {
+            background-image: url("imagenes/10.jpg");
+        }
+
+        .album11 {
+            background-image: url("imagenes/likes.jpg");
+        }
+
+        .album12 {
+            background-image: url("imagenes/20años.jpg");
+        }
+
+        .album13 {
+            background-image: url("imagenes/pop.jpg");
+        }
+
+        .video {
+            text-align: center;
+        }
+
+        iframe {
+            width: 80%;
+            height: 400px;
+            border: none;
+        }
+
+        .enlaces a {
+            display: block;
+            margin: 10px;
+            color: #b8860b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .enlaces a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 700px) {
+
+            .historia {
+                flex-direction: column;
+            }
+
+            .historia img {
+                width: 100%;
+            }
+
+            iframe {
+                width: 100%;
+                height: 250px;
+            }
+
+            section {
+                width: 85%;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- CABECERA -->
+
+    <header>
+
+    </header>
+
+
+    <!-- MENÚ -->
+
+    <nav>
+
+        <a href="#historia">Historia</a>
+
+        <a href="#carrera">Carrera</a>
+
+        <a href="#albumes">Álbumes</a>
+
+        <a href="#video">Vídeo</a>
+
+        <a href="#enlaces">Enlaces</a>
+
+    </nav>
+
+
+    <!-- HISTORIA -->
+
+    <section id="historia">
+
+        <h1>Melendi; Cantante y compositor español</h1>
+
+        <h2>Historia</h2>
+
+        <div class="historia">
+
+            <img
+                src="imagenes\joven.jpg">
+
+            <div>
+
+                <p>
+                    Melendi, cuyo nombre completo es Ramón Melendi Espina,
+                    nació en Oviedo, Asturias, en 1979.
+                </p>
+
+                <p>
+                    Desde joven mostró interés por la música y comenzó
+                    su carrera como cantante y compositor.
+                </p>
+
+                <p>
+                    En 2003 publicó su primer disco,
+                    <strong>Sin noticias de Holanda</strong>,
+                    con el que consiguió hacerse conocido en España.
+                </p>
+
+                <p>
+                    Con los años fue evolucionando desde la rumba y el
+                    pop-rock hasta incorporar diferentes estilos musicales.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CARRERA -->
+
+    <section id="carrera">
+
+        <h2>Su carrera</h2>
+
+        <p>
+            Melendi comenzó su carrera musical a principios de los años
+            2000. Su primer gran éxito llegó con el álbum
+            <strong>Sin noticias de Holanda</strong>.
+        </p>
+
+        <p>
+            Durante su trayectoria ha publicado numerosos discos y ha
+            conseguido una gran cantidad de seguidores tanto en España
+            como en otros países.
+        </p>
+
+        <p>
+            Algunas de sus canciones más conocidas son
+            <strong>La promesa</strong>, <strong>Tu jardín con enanitos</strong>,
+            <strong>Destino o casualidad</strong> y
+            <strong>Un violinista en tu tejado</strong>.
+        </p>
+
+    </section>
+
+
+    <!-- ÁLBUMES -->
+
+    <section id="albumes">
+
+        <h2>Álbumes</h2>
+
+        <div class="albumes">
+
+            <a href="https://open.spotify.com/intl-es/album/3iQWCOqfiOEh5bXqbGD9oB" target="_blank">
+            <div class="album album1">
+            </div>
+            </a>
+            
+            <a href="https://open.spotify.com/intl-es/track/4HwH6z0X4z2nU2SAv3i8nk" target="_blank">
+            <div class="album album2">
+            </div>
+            </a>
+
+            <a href="https://open.spotify.com/intl-es/album/1PkZwt6uyYDzoI3N87QgDn?autoplay=true" target="_blank">
+            <div class="album album3">
+            </div>
+            </a>
+
+            <a href="https://open.spotify.com/intl-es/album/00UlhRF25elWQ4ImKuj8SI" target="_blank">
+            <div class="album album4">
+            </div>
+            </a>
+
+            <a href="https://open.spotify.com/intl-es/album/6aI8u11Yj2wSYhSpw0BXxc" target="_blank">
+            <div class="album album5">
+            </div>
+            </a>
+
+            <a href="https://open.spotify.com/intl-es/album/1J83k6qJHhtXaexpnJzoqr" target="_blank">
+            <div class="album album6">
+            </div>
+            </a>
+
+            <a href="https://open.spotify.com/intl-es/album/39O2BLyTsw8BiKBTsXHAOR" target="_blank">
+            <div class="album album7">
+            </div>
+            </a>
+
+            <a href="https://open.spotify.com/intl-es/album/72w6yDcGkl4i5eW5TxJJla" target="_blank">
+            <div class="album album8">
+            </div>
+            </a>
+
+
+            <a href="https://open.spotify.com/intl-es/album/2cx8aUPxZ0GvVJkJdNXeOM?autoplay=true" target="_blank">
+            <div class="album album9">
+            </div>
+            </a>
+
+            <a href="https://open.spotify.com/intl-es/album/309uagfPtaKPwlqZgH16xD" target="_blank">
+            <div class="album album10">
+            </div>
+            </a>
+
+            <a href="https://open.spotify.com/intl-es/album/450aVb02CfLVugPpSjUlWO" target="_blank">
+            <div class="album album11">
+            </div>
+            </a>
+          
+            <a href="https://open.spotify.com/intl-es/album/78ojqAc1NYNqTbYTfawwZ6" target="_blank">
+            <div class="album album12">
+            </div>
+            </a>
+
+            <a href="https://open.spotify.com/intl-es/album/0fBK2XFrgxTKQMYrLDQxsI?autoplay=true" target="_blank">
+            <div class="album album13">
+            </div>
+            </a>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- VÍDEO -->
+
+    <section id="video" class="video">
+
+        <h2>Vídeo</h2>
+
+        <p>
+            Melendi - Arriba Extremoduro en Directo
+        </p>
+
+        <iframe
+            src="video/directo.mp4"
+            title="Melendi - La Promesa"
+            allowfullscreen>
+        </iframe>
+
+    </section>
+
+
+    <!-- ENLACES -->
+
+    <section id="enlaces" class="enlaces">
+
+        <h2>Enlaces</h2>
+
+        <a
+            href="https://www.melendioficial.com/"
+            target="_blank">
+            Página oficial de Melendi
+        </a>
+
+        <a
+            href="https://www.youtube.com/@Melendi"
+            target="_blank">
+            Canal de YouTube
+        </a>
+
+        <a
+            href="https://www.instagram.com/melendioficial/"
+            target="_blank">
+            Instagram
+        </a>
+
+        <a
+            href="https://es.wikipedia.org/wiki/Melendi"
+            target="_blank">
+            Wikipedia
+        </a>
+
+    </section>
+
+
+    <!-- PIE DE PÁGINA -->
+
+    <footer>
+
+        <p>
+            Página web para LDM sobre Melendi
+        </p>
+
+    </footer>
+
+</body>
+</html>
